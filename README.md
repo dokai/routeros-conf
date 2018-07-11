@@ -11,12 +11,12 @@ easier.
 
 \!\[Screenshot\]\(images/screenshot.png\)
 
-A quick way to export your current configuration for local editing is using the ssh console to export the current configuration (adjusting username and ip address accordingly)
+A quick way to export your current configuration for local editing is using the ssh console (adjusting username and router ip address accordingly)
 
 ```
 ssh admin@192.168.88.1 /export > mikrotik.conf
 ```
 
-## Disclaimer
+## Related
 
-I wrote this plugin to help
+- [RouterOS script highlighting](https://marketplace.visualstudio.com/items?itemName=cperezabo.routeros-syntax) extension
