@@ -1,0 +1,26 @@
+{
+    "name": "routeros-conf",
+    "displayName": "RouterOS configuration",
+    "description": "Syntax highlighting for RouterOS configuration",
+    "version": "0.1.0",
+    "publisher": "lautaportti",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "routeros",
+            "aliases": ["RouterOS config", "routeros"],
+            "extensions": [".conf"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "routeros",
+            "scopeName": "source.routeros",
+            "path": "./syntaxes/routeros.tmLanguage.json"
+        }]
+    }
+}

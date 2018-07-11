@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "RouterOS config",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "comment.routeros",
+					"match": "#.*"
+				},
+				{
+					"name": "keyword.section.routeros",
+					"match": "^\\s*/\\S+"
+				},
+				{
+					"name": "entity.name.function.routeros",
+					"match": "\\b(:?add|set|unset|remove|find|yes|no|required)\\s"
+				},
+				{
+					"name": "constant.numeric.routeros",
+					"match": "\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}(/\\d{1,2})?"
+				},
+				{
+					"name": "constant.numeric.routeros",
+					"match": "([0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}"
+				},
+				{
+					"match": "\\b([^=\\s]+)=",
+					"captures": {
+						"1": {"name": "entity.name.variable.parameter.routeros"}
+					}
+				}
+
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.routeros",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.routeros",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.routeros"
+}
