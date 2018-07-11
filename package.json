@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.25.0"
     },
+    "repository": {
+        "type": "GitHub",
+        "url": "https://github.com/dokai/routeros-conf"
+    },
     "categories": [
         "Programming Languages"
     ],
@@ -22,5 +26,6 @@
             "scopeName": "source.routeros",
             "path": "./syntaxes/routeros.tmLanguage.json"
         }]
-    }
+    },
+    "icon": "mikrotik.png"
 }

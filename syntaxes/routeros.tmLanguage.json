@@ -22,7 +22,7 @@
 				},
 				{
 					"name": "entity.name.function.routeros",
-					"match": "\\b(:?add|set|unset|remove|find|yes|no|required)\\s"
+					"match": "\\b(:?add|comment|disable|enable|export|find|get|move|print|remove|set|yes|no|required)\\s"
 				},
 				{
 					"name": "constant.numeric.routeros",
