@@ -2,7 +2,7 @@
     "name": "routeros-conf",
     "displayName": "RouterOS configuration",
     "description": "Syntax highlighting for RouterOS configuration",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "publisher": "lautaportti",
     "engines": {
         "vscode": "^1.25.0"
