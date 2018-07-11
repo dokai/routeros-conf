@@ -9,7 +9,7 @@ configuration](https://wiki.mikrotik.com/wiki/Manual:Console) commands.
 Provides syntax highlighting to make editing RouterOS configuration files
 easier.
 
-\!\[Screenshot\]\(images/screenshot.png\)
+![Screenshot](images/screenshot.png)
 
 A quick way to export your current configuration for local editing is using the ssh console (adjusting username and router ip address accordingly)
 
